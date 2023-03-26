@@ -1,0 +1,99 @@
+//html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="my website is about flowers">
+    <meta name="keywords" content="flowers">
+    <meta name="author" content="Boussaid meriem">
+    <title>flower's information</title>
+</head>
+<body>
+    <div id="main">
+        <h1><em>FLOWERS</em></h1>
+</div>
+    <hr>
+    <h2>definition</h2>
+    <p>All of you know what is a flower :</p>
+    <p><strong>A flower </strong>is a survival object which has a lot kinds 
+        and today we are going to see some of these kinds.
+    </p>
+    <h3>kinds of flower</h3>
+    <p>These are some of <strong>flower kinds:</strong> </p>
+    <ul>
+        <li>Lavender</li>
+        <li>Peony</li>
+        <li>Daisy</li>
+    </ul>
+    <h4><em>Lavender:</em></h4>
+      <img src="C:/Users/hp/Pictures/lavender2.jfif">
+      <h4><em>Peony:</em></h4>
+      <img src="C:/Users/hp/Pictures/peony.jfif">
+      <h4>Daisy:</em></h4>
+      <img src="C:/Users/hp/Pictures/dqisy.jfif">
+      <p>for more informations about each flower just <a href="blog.html">clickhere</a></p>
+      <footer> 
+        <P>Copyright &copy; 2023,my Website</P>
+      </footer>
+</body>
+</html>
+
+
+
+//the blog
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My blog</title>
+    </head>
+    <body>
+        <header id="main-header">
+           <h1>Website</h1>
+        </header>
+        <a href="flowers_information.html">go to</a>
+        <section>
+            <article class="post">
+               <h4>posted by Meriem on March 2023</h4>
+                <h3>Lavender</h3>
+                 <small><em>Definition</em></small>
+                 <p>Lavender is a flowering plant in the mint family that's easily identified by its sweet floral scent,
+                    it is sometimes  used to flavour beverages and sweets and has a number of applications in herbal medicine.
+                 </p>
+            </article>
+            <article class="post">
+                
+                 <h3>Peony</h3>
+                  <small><em>Definition</em></small>
+                  <p>The peony flower is among the world’s most beloved perennials.
+                     Few flowers rival the ravishing peony, known for its delicate petals and rich texture.
+                  </p>
+             </article>
+             <article class="post">
+                
+
+                 <h3>Daisy</h3>
+                  <small><em>Definition</em></small>
+                  <p>A daisy is a cheerful white flower with yellow in the center. Drive through the
+                    countryside in mid-summer and you can often see whole fields full of daisies.
+                  </p>
+             </article>
+        </section>
+    </body>
+</html>
+
+
+//css
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+#main-header{
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+#main{
+    color: plum;
+}
